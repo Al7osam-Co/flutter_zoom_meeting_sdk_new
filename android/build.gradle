@@ -145,6 +145,7 @@ android {
         annotationProcessor 'com.github.bumptech.glide:glide:4.11.0'
         implementation ("com.github.bumptech.glide:glide:4.11.0@aar") {
             transitive = true
+            exclude group: 'com.ffmpeg-kit', module: 'ffmpeg-kit-full-gpl'
         }
 
         api(name: 'mobilertc', ext: 'aar')

@@ -34,7 +34,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.zoualfkar.flutter_zoom'
-    compileSdkVersion 34
+    compileSdkVersion 36
 
 
 
@@ -44,7 +44,7 @@ android {
 
     defaultConfig {
 
-        minSdkVersion 23
+        minSdkVersion 24
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
